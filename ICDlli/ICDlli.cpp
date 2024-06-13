@@ -3,7 +3,7 @@
 VOID InitConsole() {
     FILE* conOut;
     AllocConsole();
-    SetConsoleTitleA("CallTrace");
+    SetConsoleTitleA("ICDlli");
     freopen_s(&conOut, "CONOUT$", "w", stdout);
 
 }
